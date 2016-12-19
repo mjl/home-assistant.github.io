@@ -49,7 +49,7 @@ sensor:
 
 Configuration variables:
 
-- **station_id** (*Required*): Your API key for http://openweathermap.org/.
+- **station_id** (*Required*): Station ID as per above list.
 - **name** (*Optional*): Additional name for the sensors. Defaults to platform name.
 - **monitored_conditions** array (*Required*): Conditions to display in the frontend.
   - **pressure**: Pressure at station level
